@@ -23,7 +23,7 @@ class PageTurner{
     }
 
     hideAllElements(elements){
-        console.log("Laenge: "+elements.length);
+        
         for (let i=0;i<elements.length;i++) {
             let element = elements[i];
             console.log(element)
@@ -66,7 +66,7 @@ class PageTurner{
     }
     //Hides the current Element and shows the previous element
     showPreviousElement(){
-        console.log(this.index + "  " + this.elements.length)
+        
         if(this.index < 0){
             return false;
         }
